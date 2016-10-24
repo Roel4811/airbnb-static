@@ -6,30 +6,29 @@
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
-}
-.card-user {
+  &-user {
   position: absolute;
   right: 10px;
   top: 10px;
-}
-.card-category {
+  }
+  &-category {
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 20px;
-}
-.card-description {
+  }
+  &-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
-}
-.card-description h2 {
+  }
+  &-description h2 {
   font-size: 22px;
-}
-.card-description p {
+  }
+  &-description p {
   font-size: 15px;
-}
-.card-link {
+  }
+  &-link {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -37,7 +36,8 @@
   z-index:2;
   background: black;
   opacity: 0;
-}
-.card-link:hover{
+  }
+  &-link:hover{
   opacity: 0.1;
+  }
 }
